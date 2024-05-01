@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <section data-aos="fade-up">
+        <h1  data-aos="fade-right">My <span style="color: crimson;">Blog</span></h1>
+        <div class="container">
+            <div class="box1" data-aos="flip-left">
+                <div class="img">
+                    <img src="img/photo1.avif" alt="">
+                </div>
+                <div class="contnt">
+                    <h2>blog 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque enim delectus perspiciatis atque
+                        beatae totam eveniet quo animi nulla facere laboriosam at ut soluta iste, sint sequi iusto
+                        maxime reprehenderit.</p>
+                </div>
+            </div>
+            <div class="box1" data-aos="flip-down">
+                <div class="img">
+                    <img src="img/photo2.avif" alt="">
+                    <div class="contnt">
+                        <h2>blog 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque enim delectus perspiciatis
+                            atque beatae totam eveniet quo animi nulla facere laboriosam at ut soluta iste, sint sequi
+                            iusto maxime reprehenderit.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box1" data-aos="flip-right">
+                <div class="img">
+                    <img src="img/photo3.avif" alt="">
+                    <div class="contnt">
+                        <h2>blog 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque enim delectus perspiciatis
+                            atque beatae totam eveniet quo animi nulla facere laboriosam at ut soluta iste, sint sequi
+                            iusto maxime reprehenderit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500,
+            delay: 5
+        });
+    </script>
+</body>
+
+</html>

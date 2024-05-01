@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+body{
+    background-color: whitesmoke;
+}
+section {
+    width: 100%;
+    height: 650px;
+    margin-top: 8%;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    height: 650px;
+    background-color: #BACD92;
+    position: relative;
+    box-shadow: 1px 1px 10px 8px grey;
+}
+.container::placeholder{
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.box1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.box1 input {
+    width: 49%;
+    height: 40px;
+    background: none;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: black;
+
+}
+
+.box2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.box2 input {
+    width: 49%;
+    height: 40px;
+    background: none;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: black;
+
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: none;
+
+}
+
+.btn a {
+    position: absolute;
+    left: 48%;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    bottom: 8%;
+    color: black;
+    background-color: whitesmoke;
+}
